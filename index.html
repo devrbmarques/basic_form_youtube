@@ -2,13 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Robson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen">
+    <title>Cadastro</title>
 </head>
 <body>
     
     <div>
-        <h1 id="titulo">Cadastro de Devs</h1>
+        <h1 id="titulo">Cadastro de DEVs</h1>
         <p id="subtitulo">Insira as informações</p>
         <br>
     </div>
@@ -46,16 +47,16 @@
 
         <div class="campo">
             <label for="senioridade"><strong>Senioridade</strong></label>
-            <select id="senioridade">
-                <option selected disabled value="">Selecione<option>
-                <option>Junior</option>
+            <select id="senioridade" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Júnior</option>
                 <option>Pleno</option>
-                <option>Senior</option>
+                <option>Sênior</option>
             </select>
         </div>
         
         <fieldset class="grupo">
-            <div class="campo">
+            <div id="check">
                 <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
