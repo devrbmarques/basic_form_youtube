@@ -26,10 +26,10 @@ fieldset {
 }
 
 body {
-    background-color: #8f9aa3;
+    background-color: #b8c9e0;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
+    color: #6048a7;
     margin-left: 41%;
     margin-top: 2%;
     justify-content: center;
@@ -82,7 +82,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
-    top:70%;
+    top:72%;
     left:50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -96,4 +96,18 @@ fieldset.grupo .campo {
 
 .botao, select {
     cursor: pointer;
+}
+
+/*.contato-redes {
+    position: right;
+}*/
+
+#icon-linkedin {
+    display: inline-block;
+    padding: 2em 0.2em;
+}
+
+#icon-github {
+    display: inline-block;
+    padding: 2em 0.2em;
 }
